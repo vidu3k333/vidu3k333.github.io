@@ -1,0 +1,51 @@
+body {
+	display: block;
+	font-family: system-ui, sans-serif;
+	margin-left: auto + 1em;
+	margin-right: auto + 1em;
+	background-color: #faf5e9;
+}
+h1, h2 {
+	max-width: 45ch;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	font-family: 'Sitka Text', Charter, 'Bitstream Charter', Cambria, 'Times New Roman', serif;
+	color: #958124;
+}
+h3, h4, h5, h6 {
+	max-width: 45ch;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: 'Sitka Text', Charter, 'Bitstream Charter', Cambria, 'Times New Roman', serif;
+}
+p, ul, ol, h3, h4, h5, h6, hr {
+	max-width: 70ch;
+	margin-left: auto;
+	margin-right: auto;
+	color: #2d4025;
+}
+small {
+	color: #000;
+}
+img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: calc(45ch*1.5);
+	max-width: 100%;
+}
+a {
+	color: #1c8e9b;
+}
+a:visited {
+	color: #904c56;
+}
+hr {
+	color: #ebd5a9;
+}
+blockquote {
+	font-size: 1.5 em;
+	color: #37aebc;
+	text-align: center;
+}
